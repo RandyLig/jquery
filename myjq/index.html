@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>MY JQUERY</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="node_modules/normalize/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+</head>
+<body>
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="confirm">知道了</span>
+</div>
+<div class="container">   <!-- 总容器-->
+    <h1>我的jQuery</h1>
+    <form class="add-task">
+        <input name="content" type="text"
+               autofocus autocomplete="off"
+               placeholder="在此添加您的行程"
+        >
+        <button type="submit">submit</button>
+    </form>
+    <div class="task-list">        <!-- 清单列表-->
+       <div class="task-item">            <!--任务开始-->
+            <!--<span><input type="checkbox"></span>
+            <span class="task-content">content1</span>
+            <span class="action">删除</span>
+            <span class="action">详细</span>-->
+        </div>
+    </div>
+    <div class="task-detail">    <!--任务详情-->
+        <!--<div class="content">今天学习web</div>
+        <div class="desc">
+            <textarea></textarea>
+        </div>
+        <div class="remind">
+            <input type="date">
+            <button type="submit">submit</button>
+        </div>-->
+    </div>
+    <div class="task-detail-mask"></div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.js"></script>
+    <script src="./node_modules/store/store.js"></script>
+    <script src="js/base.js"></script>
+</div>
+</body>
+</html>
